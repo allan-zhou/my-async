@@ -1,0 +1,11 @@
+server:
+  max-http-header-size: 16384
+
+
+threadpool:
+  instances:
+    -
+      name: mytest1
+      corePoolSize: 4
+      maximumPoolSize: 10
+      keepAliveTime: 1000
